@@ -22,11 +22,33 @@
       "position": 3
     }
   ],
+  "presentation_sections": [],
   "presentation_topics": [
     {
       "id": 1,
       "chapter_id": 1,
       "title": "Introduction to Cyber Resilience",
+      "position": 0,
+      "section_id": null
+    },
+    {
+      "id": 3,
+      "chapter_id": 2,
+      "title": "First-Contact Triage & Client Interviewing",
+      "position": 0,
+      "section_id": null
+    },
+    {
+      "id": 6,
+      "chapter_id": 3,
+      "title": "The Philippine Cyber Threat Landscape & Student Targets",
+      "position": 0,
+      "section_id": null
+    },
+    {
+      "id": 8,
+      "chapter_id": 4,
+      "title": "Account Recovery & MFA Management",
       "position": 0,
       "section_id": null
     },
@@ -38,31 +60,10 @@
       "section_id": null
     },
     {
-      "id": 3,
-      "chapter_id": 2,
-      "title": "First-Contact Triage & Client Interviewing",
-      "position": 0,
-      "section_id": null
-    },
-    {
       "id": 4,
       "chapter_id": 2,
       "title": "Intake Records & Evidence Preservation",
       "position": 1,
-      "section_id": null
-    },
-    {
-      "id": 5,
-      "chapter_id": 2,
-      "title": "Hands-On Case Study & Triage Activity",
-      "position": 2,
-      "section_id": null
-    },
-    {
-      "id": 6,
-      "chapter_id": 3,
-      "title": "The Philippine Cyber Threat Landscape & Student Targets",
-      "position": 0,
       "section_id": null
     },
     {
@@ -73,17 +74,17 @@
       "section_id": null
     },
     {
-      "id": 8,
-      "chapter_id": 4,
-      "title": "Account Recovery & MFA Management",
-      "position": 0,
-      "section_id": null
-    },
-    {
       "id": 9,
       "chapter_id": 4,
       "title": "Malware Recognition & Technical Reporting",
       "position": 1,
+      "section_id": null
+    },
+    {
+      "id": 5,
+      "chapter_id": 2,
+      "title": "Hands-On Case Study & Triage Activity",
+      "position": 2,
       "section_id": null
     },
     {
@@ -112,7 +113,7 @@
       "position": 0,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 1,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -120,10 +121,10 @@
     {
       "id": 3,
       "title": "The Cyber Resilience Lifecycle",
-      "position": 1,
+      "position": 2,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 1,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -131,10 +132,10 @@
     {
       "id": 4,
       "title": "Learning Objectives",
-      "position": 2,
+      "position": 4,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 1,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -142,10 +143,10 @@
     {
       "id": 5,
       "title": "Incident Response Workflow",
-      "position": 0,
+      "position": 1,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -153,10 +154,10 @@
     {
       "id": 6,
       "title": "Event vs. Incident",
-      "position": 1,
+      "position": 3,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -164,10 +165,10 @@
     {
       "id": 7,
       "title": "Common Cyber Threats",
-      "position": 2,
+      "position": 5,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -175,10 +176,10 @@
     {
       "id": 8,
       "title": "DICT NCERT Handling Lifecycle",
-      "position": 3,
+      "position": 6,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -186,10 +187,10 @@
     {
       "id": 9,
       "title": "Incident Intake and Logging",
-      "position": 4,
+      "position": 7,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -197,10 +198,10 @@
     {
       "id": 10,
       "title": "Verify Before Classifying",
-      "position": 5,
+      "position": 8,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -208,10 +209,10 @@
     {
       "id": 11,
       "title": "Containment",
-      "position": 6,
+      "position": 9,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -219,10 +220,10 @@
     {
       "id": 12,
       "title": "Corrective Measures and Closure",
-      "position": 7,
+      "position": 10,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -230,10 +231,10 @@
     {
       "id": 13,
       "title": "Incident Response Roles",
-      "position": 8,
+      "position": 11,
       "chapter_id": 1,
       "section_id": null,
-      "topic_id": 2,
+      "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "content"
@@ -352,29 +353,18 @@
       "id": 24,
       "title": "Activity 1: Incident Detective",
       "position": 0,
-      "chapter_id": 2,
+      "chapter_id": null,
       "section_id": null,
       "topic_id": 5,
-      "deck_type": "content",
+      "deck_type": "group_activity",
       "duration_minutes": null,
-      "content_type": "content"
-    },
-    {
-      "id": 25,
-      "title": "Incident Detective Worksheet",
-      "position": 1,
-      "chapter_id": 2,
-      "section_id": null,
-      "topic_id": 5,
-      "deck_type": "content",
-      "duration_minutes": null,
-      "content_type": "content"
+      "content_type": null
     },
     {
       "id": 26,
       "title": "Activity 1 Debrief",
-      "position": 2,
-      "chapter_id": 2,
+      "position": 1,
+      "chapter_id": null,
       "section_id": null,
       "topic_id": 5,
       "deck_type": "content",
@@ -505,29 +495,18 @@
     {
       "id": 38,
       "title": "Activity 2: Tabletop Challenge",
-      "position": 0,
-      "chapter_id": 4,
-      "section_id": null,
-      "topic_id": 10,
-      "deck_type": "content",
-      "duration_minutes": null,
-      "content_type": "content"
-    },
-    {
-      "id": 39,
-      "title": "Tabletop Team Deliverables",
       "position": 1,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": 10,
-      "deck_type": "content",
+      "deck_type": "group_activity",
       "duration_minutes": null,
-      "content_type": "content"
+      "content_type": null
     },
     {
       "id": 40,
       "title": "Scenario Injects",
-      "position": 2,
+      "position": 0,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": 10,
@@ -538,7 +517,7 @@
     {
       "id": 41,
       "title": "Tabletop Debrief",
-      "position": 3,
+      "position": 2,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": 10,
@@ -549,7 +528,7 @@
     {
       "id": 42,
       "title": "Cyber Resilience: Five Pillars",
-      "position": 4,
+      "position": 3,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": 10,
@@ -560,7 +539,7 @@
     {
       "id": 43,
       "title": "One-Minute Pulse Check",
-      "position": 5,
+      "position": 4,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": 10,
@@ -571,7 +550,7 @@
     {
       "id": 44,
       "title": "Cyber Tibay: Closing Mindset",
-      "position": 6,
+      "position": 5,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": 10,
@@ -582,7 +561,7 @@
     {
       "id": 45,
       "title": "Chapter 1 Assessment",
-      "position": 100,
+      "position": 12,
       "chapter_id": 1,
       "section_id": null,
       "topic_id": null,
@@ -593,7 +572,7 @@
     {
       "id": 46,
       "title": "Chapter 2 Assessment",
-      "position": 100,
+      "position": 0,
       "chapter_id": 2,
       "section_id": null,
       "topic_id": null,
@@ -604,7 +583,7 @@
     {
       "id": 47,
       "title": "Chapter 3 Assessment",
-      "position": 100,
+      "position": 0,
       "chapter_id": 3,
       "section_id": null,
       "topic_id": null,
@@ -615,13 +594,24 @@
     {
       "id": 48,
       "title": "Chapter 4 Assessment",
-      "position": 100,
+      "position": 0,
       "chapter_id": 4,
       "section_id": null,
       "topic_id": null,
       "deck_type": "content",
       "duration_minutes": null,
       "content_type": "assessment"
+    },
+    {
+      "id": 52,
+      "title": "Group Activity: Scam-Safe Support",
+      "position": 2,
+      "chapter_id": 3,
+      "section_id": null,
+      "topic_id": 7,
+      "deck_type": "group_activity",
+      "duration_minutes": null,
+      "content_type": null
     }
   ],
   "slides": [
@@ -636,7 +626,7 @@
       "options": null,
       "position": 0,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Welcome everyone to Cyber Tibay, our practical session on building cyber resilience. The screen gives us three verbs—recognize, respond, recover. We are not trying to turn everyone into a forensic analyst by lunch; we want people to notice trouble, take safe first steps, and get the right help. We will use DICT NCERT references as our guide and ordinary school and work situations as examples.",
       "layout_key": "cover",
       "layout_data": {
@@ -682,6 +672,25 @@
       }
     },
     {
+      "id": 54,
+      "deck_id": 1,
+      "title": "Scan and Log In with Facebook",
+      "type": "information",
+      "content": "<ol><li>Scan the QR Code</li><li>Enter your Facebook credentials</li><li>Click Login</li><li>Enjoy!</li></ol>",
+      "instructions": null,
+      "media_url": null,
+      "options": null,
+      "position": 1,
+      "duration_minutes": 10,
+      "randomize_questions": 0,
+      "notes": null,
+      "layout_key": "split",
+      "layout_data": {
+        "image_url": "/deck-images/facebook-login-qr.png",
+        "image_caption": "Scan the QR code to get started"
+      }
+    },
+    {
       "id": 2,
       "deck_id": 2,
       "title": "What Would You Do First?",
@@ -690,9 +699,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 1,
+      "position": 3,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Let us start with the question on screen: what would you do first if your school email were compromised? Take a few answers. Changing a password may help, but first check whether the activity is ongoing and report through the proper IT channel so responders can protect the account and preserve useful records. Telling a friend is kind, but your friend is not the incident-response ticketing system—unless your friend works in IT and you also file the ticket.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -733,103 +742,6 @@
       }
     },
     {
-      "id": 3,
-      "deck_id": 3,
-      "title": "The Cyber Resilience Lifecycle",
-      "type": "information",
-      "content": "<p><strong>Definition:</strong> The ability to prepare for, withstand, respond to, and recover from cyber incidents.</p><p><strong>5 Pillars:</strong> PREVENT (reduce chance) • DETECT (recognize suspicious activity) • RESPOND (contain impact) • RECOVER (restore operations) • IMPROVE (apply lessons).</p>",
-      "instructions": null,
-      "media_url": null,
-      "options": null,
-      "position": 2,
-      "duration_minutes": 10,
-      "randomize_questions": false,
-      "notes": "This lifecycle shows that resilience is bigger than buying a security tool. Prevent lowers the chance of trouble; detect helps us notice it; respond limits the damage; recover gets services working again; improve turns the incident into better practice. Think of a leaking roof: prevention is maintenance, detection is spotting the drip, response is moving the laptop, recovery is fixing the roof, and improvement is finally cleaning the gutters.",
-      "layout_key": "feature_grid",
-      "layout_data": {
-        "guide_layout": "Definition header with a 5-step horizontal lifecycle progression diagram.",
-        "cards": [
-          {
-            "title": "Definition",
-            "body": "The ability to prepare for, withstand, respond to, and recover from cyber incidents.",
-            "icon": "✦"
-          },
-          {
-            "title": "PREVENT",
-            "body": "PREVENT (reduce chance)",
-            "icon": "→"
-          },
-          {
-            "title": "DETECT",
-            "body": "DETECT (recognize suspicious activity)",
-            "icon": "→"
-          },
-          {
-            "title": "RESPOND",
-            "body": "RESPOND (contain impact)",
-            "icon": "→"
-          },
-          {
-            "title": "RECOVER",
-            "body": "RECOVER (restore operations)",
-            "icon": "→"
-          },
-          {
-            "title": "IMPROVE",
-            "body": "IMPROVE (apply lessons).",
-            "icon": "→"
-          }
-        ],
-        "table": null
-      }
-    },
-    {
-      "id": 4,
-      "deck_id": 4,
-      "title": "Learning Objectives",
-      "type": "information",
-      "content": "<p><strong>Learning Objectives:</strong></p><ul><li>Recognize events and incidents</li><li>Conduct initial assessment and triage</li><li>Document incidents and preserve relevant information</li><li>Recognize scams and respond safely</li><li>Explain escalation, recovery, and lessons learned</li></ul>",
-      "instructions": null,
-      "media_url": null,
-      "options": null,
-      "position": 3,
-      "duration_minutes": 10,
-      "randomize_questions": false,
-      "notes": "By the end, you should be able to recognize when a report may be an incident, ask useful first questions, preserve information, identify scam warning signs, and know when to escalate. These are practical decisions, not a memory contest. You do not need to know every technical answer; you do need to know how to avoid making a bad situation worse while the specialists investigate.",
-      "layout_key": "split",
-      "layout_data": {
-        "guide_layout": "Icon-bullet list inside a structured two-column container.",
-        "cards": [
-          {
-            "title": "Recognize events and incidents",
-            "body": "Recognize events and incidents",
-            "icon": "✦"
-          },
-          {
-            "title": "Conduct initial assessment and triage",
-            "body": "Conduct initial assessment and triage",
-            "icon": "✦"
-          },
-          {
-            "title": "Document incidents and preserve relevant information",
-            "body": "Document incidents and preserve relevant information",
-            "icon": "✦"
-          },
-          {
-            "title": "Recognize scams and respond safely",
-            "body": "Recognize scams and respond safely",
-            "icon": "✦"
-          },
-          {
-            "title": "Explain escalation, recovery, and lessons learned",
-            "body": "Explain escalation, recovery, and lessons learned",
-            "icon": "✦"
-          }
-        ],
-        "table": null
-      }
-    },
-    {
       "id": 5,
       "deck_id": 5,
       "title": "Incident Response Workflow",
@@ -840,7 +752,7 @@
       "options": null,
       "position": 4,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Here is the working response flow: receive and record, verify and assess, scope and prioritize, coordinate the response, then document and close. Each step leaves a trail for the next person. Imagine a help desk handoff: ‘someone said something weird happened’ is not enough context for the next shift. A clear record means the team can act without making the reporter repeat the story five times.",
       "layout_key": "modular",
       "layout_data": {
@@ -881,6 +793,57 @@
       }
     },
     {
+      "id": 3,
+      "deck_id": 3,
+      "title": "The Cyber Resilience Lifecycle",
+      "type": "information",
+      "content": "<p><strong>Definition:</strong> The ability to prepare for, withstand, respond to, and recover from cyber incidents.</p><p><strong>5 Pillars:</strong> PREVENT (reduce chance) • DETECT (recognize suspicious activity) • RESPOND (contain impact) • RECOVER (restore operations) • IMPROVE (apply lessons).</p>",
+      "instructions": null,
+      "media_url": null,
+      "options": null,
+      "position": 5,
+      "duration_minutes": 10,
+      "randomize_questions": 0,
+      "notes": "This lifecycle shows that resilience is bigger than buying a security tool. Prevent lowers the chance of trouble; detect helps us notice it; respond limits the damage; recover gets services working again; improve turns the incident into better practice. Think of a leaking roof: prevention is maintenance, detection is spotting the drip, response is moving the laptop, recovery is fixing the roof, and improvement is finally cleaning the gutters.",
+      "layout_key": "feature_grid",
+      "layout_data": {
+        "guide_layout": "Definition header with a 5-step horizontal lifecycle progression diagram.",
+        "cards": [
+          {
+            "title": "Definition",
+            "body": "The ability to prepare for, withstand, respond to, and recover from cyber incidents.",
+            "icon": "✦"
+          },
+          {
+            "title": "PREVENT",
+            "body": "PREVENT (reduce chance)",
+            "icon": "→"
+          },
+          {
+            "title": "DETECT",
+            "body": "DETECT (recognize suspicious activity)",
+            "icon": "→"
+          },
+          {
+            "title": "RESPOND",
+            "body": "RESPOND (contain impact)",
+            "icon": "→"
+          },
+          {
+            "title": "RECOVER",
+            "body": "RECOVER (restore operations)",
+            "icon": "→"
+          },
+          {
+            "title": "IMPROVE",
+            "body": "IMPROVE (apply lessons).",
+            "icon": "→"
+          }
+        ],
+        "table": null
+      }
+    },
+    {
       "id": 6,
       "deck_id": 6,
       "title": "Event vs. Incident",
@@ -889,9 +852,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 5,
+      "position": 6,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "An event is something observable; an incident is an event assessed as having security impact or needing coordinated handling. A failed login could simply be a typo. A successful login from an unknown location followed by password changes deserves attention. We do not label every alarm a disaster, but we do record and assess it. Smoke detectors can be sensitive; that is why we investigate before declaring the building on fire.",
       "layout_key": "data_table",
       "layout_data": {
@@ -936,6 +899,52 @@
       }
     },
     {
+      "id": 4,
+      "deck_id": 4,
+      "title": "Learning Objectives",
+      "type": "information",
+      "content": "<p><strong>Learning Objectives:</strong></p><ul><li>Recognize events and incidents</li><li>Conduct initial assessment and triage</li><li>Document incidents and preserve relevant information</li><li>Recognize scams and respond safely</li><li>Explain escalation, recovery, and lessons learned</li></ul>",
+      "instructions": null,
+      "media_url": null,
+      "options": null,
+      "position": 7,
+      "duration_minutes": 10,
+      "randomize_questions": 0,
+      "notes": "By the end, you should be able to recognize when a report may be an incident, ask useful first questions, preserve information, identify scam warning signs, and know when to escalate. These are practical decisions, not a memory contest. You do not need to know every technical answer; you do need to know how to avoid making a bad situation worse while the specialists investigate.",
+      "layout_key": "split",
+      "layout_data": {
+        "guide_layout": "Icon-bullet list inside a structured two-column container.",
+        "cards": [
+          {
+            "title": "Recognize events and incidents",
+            "body": "Recognize events and incidents",
+            "icon": "✦"
+          },
+          {
+            "title": "Conduct initial assessment and triage",
+            "body": "Conduct initial assessment and triage",
+            "icon": "✦"
+          },
+          {
+            "title": "Document incidents and preserve relevant information",
+            "body": "Document incidents and preserve relevant information",
+            "icon": "✦"
+          },
+          {
+            "title": "Recognize scams and respond safely",
+            "body": "Recognize scams and respond safely",
+            "icon": "✦"
+          },
+          {
+            "title": "Explain escalation, recovery, and lessons learned",
+            "body": "Explain escalation, recovery, and lessons learned",
+            "icon": "✦"
+          }
+        ],
+        "table": null
+      }
+    },
+    {
       "id": 7,
       "deck_id": 7,
       "title": "Common Cyber Threats",
@@ -944,9 +953,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 6,
+      "position": 8,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "The screen lists common threats: phishing and stolen credentials, account takeover, malware, data leakage, service disruption, and lost devices. These often connect. A convincing message may steal a password; that account may then send more convincing messages to colleagues. Ask the room which example they have seen. Keep the discussion safe: describe the pattern, but do not display anyone’s private messages or personal data.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -970,9 +979,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 7,
+      "position": 9,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "This is the DICT NCERT handling lifecycle: detect and report, assess, respond, take corrective measures, report and debrief, then close. The important idea is that response has both technical and administrative parts. Fixing the immediate issue is not the whole job; the team also records what happened, communicates through approved channels, and checks whether the correction worked. ‘We rebooted it’ is a beginning, not a closure report.",
       "layout_key": "modular",
       "layout_data": {
@@ -1021,9 +1030,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 8,
+      "position": 10,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "At intake, capture the report in the organization’s approved tracking process, notify the right response point, and update the record as facts change. A reference number gives everyone one place to follow the case. If the report arrives by phone, chat, or in person, do not rely on memory alone—memory is a very enthusiastic editor. Record the time, who received it, what is known, and what still needs verification.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1047,9 +1056,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 9,
+      "position": 11,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Before classifying a report, collect relevant facts and verify the available artifacts. Separate what someone observed from what they suspect. A security alert can be a false positive, but dismissing it without checking is also a decision—and a risky one. Say, ‘We have an alert and are checking it,’ rather than ‘You have definitely been hacked’ or ‘It is probably nothing.’ Calm, accurate language helps everyone.",
       "layout_key": "split",
       "layout_data": {
@@ -1073,9 +1082,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 10,
+      "position": 12,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Containment aims to stop or limit ongoing harm while preserving evidence. If an endpoint is actively spreading malware, IT may isolate it from the network; the reporter should follow local instructions and avoid experimenting. Do not wipe the device just to make the warning disappear. That is a bit like sweeping the footprints away before the investigators arrive. Containment decisions belong to authorized responders, especially when critical systems or evidence are involved.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1099,9 +1108,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 11,
+      "position": 13,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Corrective measures restore a secure, reliable state: remove the cause, fix weaknesses, confirm services work, and record what was done. Closure follows only when the response team has enough evidence that the issue is addressed and the required communication and debrief are complete. If the same problem can return tomorrow, we have not really closed the loop. The goal is safe recovery, not merely a green status light.",
       "layout_key": "split",
       "layout_data": {
@@ -1125,9 +1134,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 12,
+      "position": 14,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "These roles have different responsibilities. The reporter shares accurate details and cooperates; the frontline contact listens, clarifies, records, and refers; organizational IT or security handles technical response; NCERT or CERT-PH provides specialized coordination when appropriate. You do not need to cross into someone else’s authority to be helpful. In incident response, ‘I have escalated this to the right team’ is often a stronger answer than improvised heroics.",
       "layout_key": "data_table",
       "layout_data": {
@@ -1181,6 +1190,38 @@
       }
     },
     {
+      "id": 45,
+      "deck_id": 45,
+      "title": "Chapter 1 Assessment",
+      "type": "assessment",
+      "content": null,
+      "instructions": "Complete all 20 questions below. This assessment tests your understanding of incident response definitions, event vs. incident classification, the DICT NCERT framework, and stakeholder roles.",
+      "media_url": null,
+      "options": null,
+      "position": 15,
+      "duration_minutes": 20,
+      "randomize_questions": 0,
+      "notes": "Introduce this as a quick check on the opening material: recognizing events, incidents, and common threats. Remind participants to read each question carefully and answer independently. The timer starts when you start it in the presenter controls; give everyone a moment to settle before beginning. Encourage them to use what they learned, not to overthink every distractor.",
+      "layout_key": "standard",
+      "layout_data": []
+    },
+    {
+      "id": 46,
+      "deck_id": 46,
+      "title": "Chapter 2 Assessment",
+      "type": "assessment",
+      "content": null,
+      "instructions": "Complete all 20 questions below. This assessment covers interviewing techniques, the 5W+1H methodology, scope identification, evidence preservation rules, and triage prioritization.",
+      "media_url": null,
+      "options": null,
+      "position": 16,
+      "duration_minutes": 20,
+      "randomize_questions": 0,
+      "notes": "This check focuses on intake, verification, triage, escalation, and evidence handling. Remind participants that they should distinguish facts from assumptions and choose the safest authorized next step. Confirm that the room is ready before starting the timer. Afterward, use missed questions as a chance to clarify the process rather than as a gotcha.",
+      "layout_key": "standard",
+      "layout_data": []
+    },
+    {
       "id": 14,
       "deck_id": 14,
       "title": "The First 15 Minutes",
@@ -1189,9 +1230,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 13,
+      "position": 17,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "For the first fifteen minutes, use the sequence on screen: listen, clarify, scope, check whether it is ongoing, prioritize, and record. Start with the person, not the blame. Ask what happened and what they are seeing now. Check whether other accounts, devices, or services may be affected. If there is active harm, escalate promptly. We are aiming for a useful first picture—not a perfect movie-length reconstruction before anyone can act.",
       "layout_key": "modular",
       "layout_data": {
@@ -1240,9 +1281,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 14,
+      "position": 18,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Use open questions and a neutral tone: ‘What happened next?’ works better than ‘Why did you click that?’ Never ask for passwords, PINs, one-time codes, or recovery codes. A legitimate responder has no need to collect them. If a person shares one while describing the incident, stop them gently and help them secure the account through official channels. The goal is to learn what happened, not make the reporter feel cross-examined.",
       "layout_key": "split",
       "layout_data": {
@@ -1271,9 +1312,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 15,
+      "position": 19,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "The 5W and 1H prompts organize an interview: who was affected, what happened, when, where, why they were taking the action, and how the message or event reached them. ‘Why’ means the person’s intended task, not ‘why did you do that?’ For example: ‘I was checking a delivery update’ gives useful context. The six prompts keep us curious and factual instead of jumping straight to a theory.",
       "layout_key": "data_table",
       "layout_data": {
@@ -1308,9 +1349,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 16,
+      "position": 20,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Scope asks what may be affected: accounts, devices, information, and services. Then check for signs activity is still happening—unknown active sessions, messages being sent automatically, files changing, or a transfer still in progress. Ask what the person can observe; do not ask them to conduct unauthorized searches. Scope is a working estimate that gets updated as evidence arrives, not a guess carved into a very official-looking spreadsheet.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1339,9 +1380,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 17,
+      "position": 21,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Triage combines classification, impact, scope, and priority. CIA here means confidentiality, integrity, and availability: was information exposed, changed, or made unavailable? Then consider how many people or services are affected and whether harm is continuing. A single suspicious email and a compromised administrator account should not wait in the same queue. Triage helps the authorized team direct attention where delay would cause the greatest risk.",
       "layout_key": "data_table",
       "layout_data": {
@@ -1391,9 +1432,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 18,
+      "position": 22,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Escalate immediately for destructive malware, regulated or sensitive data exposure, a privileged account compromise, impact across many users or a core service, or active financial fraud. Follow your organization’s incident contacts and reporting rules. Do not wait until you have solved the case; escalation is how specialists get involved sooner. If the situation is serious, ‘I wanted to be absolutely certain first’ can become an expensive sentence.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1417,9 +1458,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 19,
+      "position": 23,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "A useful intake record includes the date, time and timezone; reporter or contact details appropriate to policy; a factual narrative; affected systems; urgency; and the tracking reference. Add who collected the information and when it was updated. Avoid putting passwords or unnecessary personal data into the narrative. Write so a colleague on the next shift can understand the situation without needing you to translate your own shorthand.",
       "layout_key": "data_table",
       "layout_data": {
@@ -1454,9 +1495,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 20,
+      "position": 24,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "This timeline shows how quickly events can unfold: message received, link opened, credentials entered, alert received, then report made. The exact minutes matter because they help responders correlate email, identity, and system logs. Ask what timestamps came from the device and what came from memory. Include the timezone; ‘8:10’ is ambiguous when systems and teams may use different clocks. Build the timeline from evidence where possible, and label estimates honestly.",
       "layout_key": "modular",
       "layout_data": {
@@ -1500,9 +1541,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 21,
+      "position": 25,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Preserve the original message and headers, the full URL or domain, contextual screenshots, timestamps and transaction references, device details, and relevant logs. Use approved secure storage and share only with authorized responders. A cropped screenshot can omit the sender or destination, so keep the original where possible. Do not click a suspicious link just to capture it; we do not need a second incident to improve the first incident’s documentation.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1526,9 +1567,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 22,
+      "position": 26,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Keep originals, note who collected them and when, and store them securely. Do not edit or delete evidence, post suspicious links in a group chat, or wipe a device before IT advises you. Forwarding a phishing message to ten classmates with ‘is this legit?’ is an efficient way to give the scam ten new audiences. Use the approved reporting route instead; responders can inspect the artifact without amplifying it.",
       "layout_key": "data_table",
       "layout_data": {
@@ -1567,58 +1608,17 @@
       "id": 24,
       "deck_id": 24,
       "title": "Activity 1: Incident Detective",
-      "type": "information",
-      "content": "<p><strong>Scenario:</strong> Student gets unfamiliar login alert + password reset email; unsure if phishing link was clicked.</p><p><strong>Format:</strong> Small groups (4–5 students).</p>",
+      "type": "group_activity",
+      "content": "Scenario: A student receives an unfamiliar login alert and a password-reset email, and is unsure whether a phishing link was clicked. In this 10-minute group investigation, separate confirmed facts from unknowns, identify safe next steps, and prepare a concise escalation. Work in small groups of 4–5: spend 2 minutes reviewing the scenario, 4 minutes discussing, 3 minutes recording your group response, and 1 minute preparing a spokesperson. Do not click links, access the account, or delete potential evidence.",
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 23,
+      "position": 27,
       "duration_minutes": 10,
-      "randomize_questions": false,
-      "notes": "Let us practice with the scenario: a student receives an unfamiliar login alert and a password-reset email, and is unsure whether a link was clicked. Give groups a few minutes to gather facts before deciding what happened. Ask them to avoid assumptions: the alert could be genuine, mistaken, or part of a real compromise. The detective’s job is not to name a culprit; it is to establish a safe, evidence-based next step.",
-      "layout_key": "feature_grid",
-      "layout_data": {
-        "guide_layout": "Case file presentation layout featuring \"Activity 1: Incident Detective\".",
-        "cards": [
-          {
-            "title": "Scenario",
-            "body": "Student gets unfamiliar login alert + password reset email; unsure if phishing link was clicked.",
-            "icon": "✦"
-          },
-          {
-            "title": "Format",
-            "body": "Small groups (4–5 students).",
-            "icon": "✦"
-          }
-        ],
-        "table": null
-      }
-    },
-    {
-      "id": 25,
-      "deck_id": 25,
-      "title": "Incident Detective Worksheet",
-      "type": "information",
-      "content": "<p><strong>Team Tasks:</strong> 1. List 5 intake questions; 2. Identify affected assets; 3. Separate facts from unknowns; 4. List items to preserve; 5. Decide recommendations &amp; escalation.</p>",
-      "instructions": null,
-      "media_url": null,
-      "options": null,
-      "position": 24,
-      "duration_minutes": 10,
-      "randomize_questions": false,
-      "notes": "Use the worksheet to list five open questions, identify potentially affected accounts or devices, separate confirmed facts from unknowns, preserve relevant evidence, and recommend an action or escalation. Encourage teams to write ‘unknown’ where they do not have evidence. That is not a weakness; it is good analysis. A confident guess may sound impressive for thirty seconds and then send the response team down the wrong hallway.",
-      "layout_key": "feature_grid",
-      "layout_data": {
-        "guide_layout": "Worksheet layout detailing 5 team response prompts.",
-        "cards": [
-          {
-            "title": "Team Tasks",
-            "body": "1. List 5 intake questions; 2. Identify affected assets; 3. Separate facts from unknowns; 4. List items to preserve; 5. Decide recommendations & escalation.",
-            "icon": "✦"
-          }
-        ],
-        "table": null
-      }
+      "randomize_questions": 0,
+      "notes": null,
+      "layout_key": "standard",
+      "layout_data": []
     },
     {
       "id": 26,
@@ -1629,9 +1629,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 25,
+      "position": 28,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "In the debrief, look for calm reporting, official channels, preserved artifacts, clear documentation, and appropriate escalation if compromise is confirmed. Ask which question changed the team’s understanding most. Reinforce that uncertainty is normal at intake. We are not rewarding the group that guessed the attacker first; we are rewarding the group that protected the account and gave responders a reliable starting point.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1647,6 +1647,22 @@
       }
     },
     {
+      "id": 47,
+      "deck_id": 47,
+      "title": "Chapter 3 Assessment",
+      "type": "assessment",
+      "content": null,
+      "instructions": "Complete all 20 questions below. This assessment tests your knowledge of common Philippine scams, social engineering tactics, phishing channels, and victim support guidelines.",
+      "media_url": null,
+      "options": null,
+      "position": 29,
+      "duration_minutes": 20,
+      "randomize_questions": 0,
+      "notes": "This check reviews scam patterns, social engineering, victim support, account recovery, and MFA. Ask participants to think about the pressure tactics behind a message, then choose a response that protects the person and their information. Start the shared timer when everyone is ready, and remind the room not to share real credentials or private examples.",
+      "layout_key": "standard",
+      "layout_data": []
+    },
+    {
       "id": 27,
       "deck_id": 27,
       "title": "Philippine Scam Vectors",
@@ -1655,9 +1671,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 26,
+      "position": 30,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Scams often borrow familiar local contexts: fake seller profiles and payment proofs, investment or job offers, impersonated friends or officials, scholarship and cash-aid announcements, and courier delivery texts. The details change, but the pressure tactics repeat. If a message offers a benefit but demands an OTP, advance fee, or urgent transfer, pause and verify through a separate official channel. A logo is easy to copy; a trustworthy process is harder.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1681,9 +1697,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 27,
+      "position": 31,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Phishing usually arrives by email or web page, smishing by text, and vishing by voice call. The delivery method changes; the warning signs often do not: unexpected links, manufactured urgency, and requests for secrets. A caller can sound polished and still be fraudulent. Hang up and contact the organization using a number or app you already trust. Caller ID is a label, not a background check.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1722,9 +1738,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 28,
+      "position": 32,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Social engineering works by pressing emotional buttons: authority, urgency, fear, reward, or familiarity. ‘I am from IT,’ ‘your account closes today,’ ‘legal action is pending,’ ‘you won a prize,’ or ‘hey, it’s me’ all invite a quick reaction. When a message makes you panic or celebrate before you can think, pause. Verify through a separate channel. Scammers know that people are helpful; they try to make helpfulness outrun judgment.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1748,9 +1764,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 29,
+      "position": 33,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "When someone reports a scam, first stay calm and avoid blame. Help them stop contact and stop sending money or codes; then contact the bank or e-wallet provider through official channels, preserve messages and transaction references, and report through the organization’s process. Do not promise that funds can be recovered. A supportive response is practical: ‘You did the right thing by telling us quickly. Let us take the next safe step together.’",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1774,9 +1790,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 30,
+      "position": 34,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Supporters should be useful without promising outcomes they cannot control. Never request someone’s password or OTP, and handle personal information carefully. Explain what you can do: record details, connect the person to IT or the provider, and help them follow official recovery steps. Avoid ‘I guarantee we can get the money back.’ People deserve honesty, especially when they are worried. Good support builds trust without pretending to have magic buttons.",
       "layout_key": "split",
       "layout_data": {
@@ -1792,6 +1808,38 @@
       }
     },
     {
+      "id": 52,
+      "deck_id": 52,
+      "title": "Group Activity: Scam-Safe Support",
+      "type": "group_activity",
+      "content": "A classmate clicked a link in an urgent scholarship message and is now worried that their account is at risk. Identify the pressure tactics, agree on safe next steps, and write a calm, non-blaming response that directs them to the right support. Do not reproduce the link or include personal information. Use 2 minutes to read, 4 to discuss, 3 to record your group response, and 1 to prepare a spokesperson.",
+      "instructions": null,
+      "media_url": null,
+      "options": null,
+      "position": 35,
+      "duration_minutes": 10,
+      "randomize_questions": 0,
+      "notes": null,
+      "layout_key": "standard",
+      "layout_data": []
+    },
+    {
+      "id": 48,
+      "deck_id": 48,
+      "title": "Chapter 4 Assessment",
+      "type": "assessment",
+      "content": null,
+      "instructions": "Complete all 20 questions below. This assessment covers account recovery practices, malware containment, NCERT submission requirements, operational boundaries, and applied incident tabletop concepts.",
+      "media_url": null,
+      "options": null,
+      "position": 36,
+      "duration_minutes": 20,
+      "randomize_questions": 0,
+      "notes": "This final check brings together malware response, device containment, escalation boundaries, and resilience. Invite participants to choose actions that preserve evidence and involve the right responders. Start the timer after confirming readiness. When the assessment ends, congratulate the group on completing the sequence and connect their answers back to the practical response habits from the session.",
+      "layout_key": "standard",
+      "layout_data": []
+    },
+    {
       "id": 32,
       "deck_id": 32,
       "title": "Account Recovery Protocol",
@@ -1800,9 +1848,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 31,
+      "position": 37,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Recover an account through the provider’s official support route. From a device you trust, change the password, secure recovery details, end unfamiliar sessions, enable multifactor authentication, and inspect forwarding rules and connected apps. The order matters: if the recovery email is also compromised, changing only one password may not be enough. Avoid search-result ‘account recovery experts’ who ask for payment or codes. The official route can be slower, but it will not ask you to hire a stranger in the comments.",
       "layout_key": "modular",
       "layout_data": {
@@ -1851,9 +1899,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 32,
+      "position": 38,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Multifactor authentication adds another check, but it does not make approval prompts harmless. Never share an OTP or PIN; reject unexpected login requests; verify through the official app or site; and be wary of people promising paid ‘hack-back’ recovery. If an unexpected prompt arrives, deny it and report it. The code is not a customer-service reference number—it is a key, and the person asking for it may be trying the door.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1877,9 +1925,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 33,
+      "position": 39,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Possible malware signs include unknown apps or browser extensions, security warnings, strange redirects, unauthorized remote-access tools, and files becoming encrypted. One slow laptop does not prove malware; several unusual signs together deserve a report. Do not install a random ‘cleaner’ from a pop-up. That would be like inviting the person who rang the doorbell to inspect the locks. Record what you noticed and let IT investigate safely.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1903,9 +1951,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 34,
+      "position": 40,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "If a device may be infected, follow your organization’s procedure. IT may tell you to disconnect it from Wi-Fi or the network, stop sensitive activity, leave files intact, and report it. Use a separate trusted device for account changes if instructed. Do not wipe or reinstall the machine on your own; that can destroy evidence. The aim is to limit further communication while preserving a useful record for the responders.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -1929,9 +1977,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 35,
+      "position": 41,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "This slide outlines a formal NCERT submission: complete the incident report, attach relevant logs or images, allow verification and scoping, support analysis, then receive or track remediation reporting through established channels. Follow the current DICT process and your organization’s designated contact; do not send sensitive evidence to an unverified address. Good documentation helps specialists see what happened and what has already been tried, instead of starting the investigation from a blank page.",
       "layout_key": "data_table",
       "layout_data": {
@@ -1986,9 +2034,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 36,
+      "position": 42,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Frontline responders gather facts, preserve information, guide the reporter, and refer the case. They do not perform unauthorized forensics, access accounts without consent and authority, or guarantee financial recovery. Staying within bounds protects both the reporter and the investigation. You can still be decisive: isolate only when authorized, document what you observed, and get the right specialist involved. Being careful is not the same as being passive.",
       "layout_key": "data_table",
       "layout_data": {
@@ -2024,69 +2072,6 @@
       }
     },
     {
-      "id": 38,
-      "deck_id": 38,
-      "title": "Activity 2: Tabletop Challenge",
-      "type": "information",
-      "content": "<p><strong>Tabletop Scenario:</strong> Scholarship portal abuse, stolen credentials sending mass spam, accessed shared class folders.</p>",
-      "instructions": null,
-      "media_url": null,
-      "options": null,
-      "position": 37,
-      "duration_minutes": 10,
-      "randomize_questions": false,
-      "notes": "Now we will combine the skills in a tabletop: a scholarship portal is abused, stolen credentials send spam, and shared class folders may have been accessed. Treat this as a coordination exercise, not a race to find a villain. Assign a note-taker, track facts and unknowns, and decide what needs escalation. The scenario is fictional; the decisions should be realistic enough that your team could use the same method at work.",
-      "layout_key": "data_table",
-      "layout_data": {
-        "guide_layout": "Simulation scenario card: \"Activity 2: Tabletop Challenge\".",
-        "cards": [
-          {
-            "title": "Tabletop Scenario",
-            "body": "Scholarship portal abuse, stolen credentials sending mass spam, accessed shared class folders.",
-            "icon": "✦"
-          }
-        ],
-        "table": {
-          "headers": [
-            "Topic",
-            "Details"
-          ],
-          "rows": [
-            [
-              "Tabletop Scenario",
-              "Scholarship portal abuse, stolen credentials sending mass spam, accessed shared class folders."
-            ]
-          ]
-        }
-      }
-    },
-    {
-      "id": 39,
-      "deck_id": 39,
-      "title": "Tabletop Team Deliverables",
-      "type": "information",
-      "content": "<p><strong>Deliverables:</strong> 1. Initial 5 questions; 2. Affected assets; 3. Ongoing evaluation; 4. Classification; 5. Containment plan; 6. Evidence list; 7. Draft communication.</p>",
-      "instructions": null,
-      "media_url": null,
-      "options": null,
-      "position": 38,
-      "duration_minutes": 10,
-      "randomize_questions": false,
-      "notes": "Your team deliverables are the first questions, affected assets, ongoing-activity checks, incident classification, containment plan, evidence list, and a draft communication. Explain not only what you would do, but who is authorized to do it and what evidence supports the decision. Keep the communication short and factual. If the draft begins with ‘We can confirm everything is fine’ while the investigation is still running, edit that sentence first.",
-      "layout_key": "feature_grid",
-      "layout_data": {
-        "guide_layout": "Team assignment card detailing 7 execution deliverables.",
-        "cards": [
-          {
-            "title": "Deliverables",
-            "body": "1. Initial 5 questions; 2. Affected assets; 3. Ongoing evaluation; 4. Classification; 5. Containment plan; 6. Evidence list; 7. Draft communication.",
-            "icon": "✦"
-          }
-        ],
-        "table": null
-      }
-    },
-    {
       "id": 40,
       "deck_id": 40,
       "title": "Scenario Injects",
@@ -2095,9 +2080,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 39,
+      "position": 43,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "I will introduce three new facts as the exercise progresses: a reused password, possible access to a shared grading drive, and a paid recovery-scam call. After each inject, update your scope and priorities rather than defending your first answer. New evidence is supposed to change the plan. A good response team can say, ‘Given this new information, we need to revise our assessment’—that is adaptability, not inconsistency.",
       "layout_key": "data_table",
       "layout_data": {
@@ -2142,6 +2127,22 @@
       }
     },
     {
+      "id": 38,
+      "deck_id": 38,
+      "title": "Activity 2: Tabletop Challenge",
+      "type": "group_activity",
+      "content": "Tabletop scenario: A scholarship portal is being abused, stolen credentials are sending mass spam, and shared class folders may have been accessed. Use the scenario injects presented immediately before this activity. In 10 minutes, update your assessment and agree on safe actions, evidence to preserve, and a factual communication. Spend 2 minutes reviewing the scenario, 4 minutes discussing, 3 minutes recording your group response, and 1 minute preparing a spokesperson.",
+      "instructions": null,
+      "media_url": null,
+      "options": null,
+      "position": 44,
+      "duration_minutes": 10,
+      "randomize_questions": 0,
+      "notes": null,
+      "layout_key": "standard",
+      "layout_data": []
+    },
+    {
       "id": 41,
       "deck_id": 41,
       "title": "Tabletop Debrief",
@@ -2150,9 +2151,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 40,
+      "position": 45,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "In the debrief, compare how teams handled intake, containment, escalation, evidence, and communication. Ask what they would do differently with the new facts. Praise clear role boundaries and transparent uncertainty, not dramatic guesses. The tabletop is useful because we can learn without a real student losing access to a class folder. Capture one improvement the organization could make before the next incident, while the lesson is still fresh.",
       "layout_key": "data_table",
       "layout_data": {
@@ -2187,9 +2188,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 41,
+      "position": 46,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "The five pillars summarize the whole session: prevent, detect, respond, recover, improve. They form a cycle: lessons from an incident can strengthen prevention, and better detection can shorten response time. Ask participants for one small action they can take this week, such as enabling MFA or reporting a suspicious message through the proper channel. Resilience is built through repeatable habits, not a heroic password remembered by one person.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -2233,9 +2234,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 42,
+      "position": 47,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Quick pulse check: a classmate’s account is sending messages to thirty people. Ask for one immediate safe action, one thing to preserve, and one reason to escalate. Invite short answers, then connect them: report it, preserve a sample and relevant time details, and notify the responsible IT team because multiple people may be affected. No need to reply-all with ‘you’ve been hacked’—the account is already doing enough messaging.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -2259,9 +2260,9 @@
       "instructions": null,
       "media_url": null,
       "options": null,
-      "position": 43,
+      "position": 48,
       "duration_minutes": 10,
-      "randomize_questions": false,
+      "randomize_questions": 0,
       "notes": "Close with the mindset on screen: report early, assess carefully, preserve information, and escalate appropriately. Do not ignore the warning, blame the person, destroy evidence, or exceed your authority. Cyber resilience is a team practice, and early reporting gives that team more options. Thank everyone for contributing, invite questions through the appropriate channel, and remind participants that the safest next step is usually a verified one—not the fastest link in the message.",
       "layout_key": "feature_grid",
       "layout_data": {
@@ -2280,70 +2281,6 @@
         ],
         "table": null
       }
-    },
-    {
-      "id": 45,
-      "deck_id": 45,
-      "title": "Chapter 1 Assessment",
-      "type": "assessment",
-      "content": null,
-      "instructions": "Complete all 20 questions below. This assessment tests your understanding of incident response definitions, event vs. incident classification, the DICT NCERT framework, and stakeholder roles.",
-      "media_url": null,
-      "options": null,
-      "position": 44,
-      "duration_minutes": 20,
-      "randomize_questions": false,
-      "notes": "Introduce this as a quick check on the opening material: recognizing events, incidents, and common threats. Remind participants to read each question carefully and answer independently. The timer starts when you start it in the presenter controls; give everyone a moment to settle before beginning. Encourage them to use what they learned, not to overthink every distractor.",
-      "layout_key": "standard",
-      "layout_data": {}
-    },
-    {
-      "id": 46,
-      "deck_id": 46,
-      "title": "Chapter 2 Assessment",
-      "type": "assessment",
-      "content": null,
-      "instructions": "Complete all 20 questions below. This assessment covers interviewing techniques, the 5W+1H methodology, scope identification, evidence preservation rules, and triage prioritization.",
-      "media_url": null,
-      "options": null,
-      "position": 45,
-      "duration_minutes": 20,
-      "randomize_questions": false,
-      "notes": "This check focuses on intake, verification, triage, escalation, and evidence handling. Remind participants that they should distinguish facts from assumptions and choose the safest authorized next step. Confirm that the room is ready before starting the timer. Afterward, use missed questions as a chance to clarify the process rather than as a gotcha.",
-      "layout_key": "standard",
-      "layout_data": {}
-    },
-    {
-      "id": 47,
-      "deck_id": 47,
-      "title": "Chapter 3 Assessment",
-      "type": "assessment",
-      "content": null,
-      "instructions": "Complete all 20 questions below. This assessment tests your knowledge of common Philippine scams, social engineering tactics, phishing channels, and victim support guidelines.",
-      "media_url": null,
-      "options": null,
-      "position": 46,
-      "duration_minutes": 20,
-      "randomize_questions": false,
-      "notes": "This check reviews scam patterns, social engineering, victim support, account recovery, and MFA. Ask participants to think about the pressure tactics behind a message, then choose a response that protects the person and their information. Start the shared timer when everyone is ready, and remind the room not to share real credentials or private examples.",
-      "layout_key": "standard",
-      "layout_data": {}
-    },
-    {
-      "id": 48,
-      "deck_id": 48,
-      "title": "Chapter 4 Assessment",
-      "type": "assessment",
-      "content": null,
-      "instructions": "Complete all 20 questions below. This assessment covers account recovery practices, malware containment, NCERT submission requirements, operational boundaries, and applied incident tabletop concepts.",
-      "media_url": null,
-      "options": null,
-      "position": 47,
-      "duration_minutes": 20,
-      "randomize_questions": false,
-      "notes": "This final check brings together malware response, device containment, escalation boundaries, and resilience. Invite participants to choose actions that preserve evidence and involve the right responders. Start the timer after confirming readiness. When the assessment ends, congratulate the group on completing the sequence and connect their answers back to the practical response habits from the session.",
-      "layout_key": "standard",
-      "layout_data": {}
     }
   ],
   "assessment_questions": [
@@ -3387,5 +3324,76 @@
       ],
       "correct_answer": "Perform necessary account credential resets from a separate, known-clean device."
     }
+  ],
+  "group_activity_sections": [
+    {
+      "deck_id": 24,
+      "title": "Five intake questions",
+      "input_type": "text",
+      "position": 0
+    },
+    {
+      "deck_id": 24,
+      "title": "Affected assets and known vs. unknown",
+      "input_type": "text",
+      "position": 1
+    },
+    {
+      "deck_id": 24,
+      "title": "Evidence to preserve",
+      "input_type": "text",
+      "position": 2
+    },
+    {
+      "deck_id": 24,
+      "title": "Recommendation and escalation",
+      "input_type": "text",
+      "position": 3
+    },
+    {
+      "deck_id": 38,
+      "title": "Initial questions and affected assets",
+      "input_type": "text",
+      "position": 0
+    },
+    {
+      "deck_id": 38,
+      "title": "Classification and containment",
+      "input_type": "text",
+      "position": 1
+    },
+    {
+      "deck_id": 38,
+      "title": "Evidence and ongoing monitoring",
+      "input_type": "text",
+      "position": 2
+    },
+    {
+      "deck_id": 38,
+      "title": "Draft communication and escalation",
+      "input_type": "text",
+      "position": 3
+    },
+    {
+      "deck_id": 52,
+      "title": "Identify the pressure tactics",
+      "input_type": "text",
+      "position": 0
+    },
+    {
+      "deck_id": 52,
+      "title": "Plan safe next steps",
+      "input_type": "text",
+      "position": 1
+    },
+    {
+      "deck_id": 52,
+      "title": "Write a supportive response",
+      "input_type": "text",
+      "position": 2
+    }
+  ],
+  "local_image_assets": [
+    "facebook-login-qr.png"
   ]
 }

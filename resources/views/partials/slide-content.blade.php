@@ -38,7 +38,7 @@
 @elseif ($layout === 'video_split')
     <section class="deck-video-split"><div class="video-split-media">@include('partials.slide-media')</div><div class="video-split-copy"><div class="deck-eyebrow">WATCH &amp; FOLLOW ALONG</div><h1>{{ $slide->title }}</h1><div class="deck-body">{!! $contentHtml !!}</div></div></section>
 @elseif ($layout === 'split')
-    <section class="deck-split {{ $slide->title === 'Join Decks' ? 'deck-split-qr' : '' }}">
+    <section class="deck-split {{ $slide->title === 'Join Decks' ? 'deck-split-qr' : '' }} {{ $slide->title === 'Scan and Log In with Facebook' ? 'deck-split-facebook-login' : '' }}">
         <div class="deck-split-copy"><div class="deck-eyebrow">{{ $isVideo ? 'WATCH & FOLLOW ALONG' : 'A MOMENT TO LEARN' }}</div><h1>{{ $slide->title }}</h1><div class="deck-body">{!! $contentHtml !!}</div>@if($isVideo)@include('partials.slide-media')@endif</div>
         <div class="deck-split-visual">@if($image)<figure><img src="{{ $image }}" alt="{{ $data['image_caption'] ?? $slide->title }}">@if(!empty($data['image_caption']))<figcaption>{{ $data['image_caption'] }}</figcaption>@endif</figure>@elseif($cards)<div class="feature-cards compact-cards">@foreach($cards as $card)<article class="feature-card"><span class="feature-card-icon">{{ $card['icon'] ?? '✦' }}</span><h2>{!! \App\Support\DeckHtml::sanitize($card['title'] ?? '') !!}</h2><div class="feature-card-copy">{!! \App\Support\DeckHtml::sanitize($card['body'] ?? '') !!}</div></article>@endforeach</div>@else<div class="visual-placeholder"><span>✳</span><small>VISUAL GOES HERE</small></div>@endif</div>
     </section>

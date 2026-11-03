@@ -58,7 +58,7 @@ class ResolveLectureContext
                 }
             }
 
-            if (! $lecture && ! $request->user() && $request->session()->filled('active_event_id') && Schema::hasTable('events')) {
+            if (! $lecture && ! $request->user() && filled($request->session()->get('active_event_id')) && Schema::hasTable('events')) {
                 $eventLectureId = DB::table('events')
                     ->where('id', $request->session()->get('active_event_id'))
                     ->whereNull('archived_at')

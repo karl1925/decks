@@ -1,0 +1,24 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Schema;
+
+return new class extends Migration
+{
+    public function up(): void
+    {
+        Schema::table('presentation_decks', function (Blueprint $table): void {
+            $table->string('content_type', 24)->nullable()->default('content')->after('deck_type');
+        });
+        DB::table('presentation_decks')->where('deck_type', '!=', 'content')->update(['content_type' => null]);
+    }
+
+    public function down(): void
+    {
+        Schema::table('presentation_decks', function (Blueprint $table): void {
+            $table->dropColumn('content_type');
+        });
+    }
+};

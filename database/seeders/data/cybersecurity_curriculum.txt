@@ -1,0 +1,479 @@
+CHAPTER 1 — THINK LIKE A DEFENDER (25 MINUTES)
+==============================================
+Topic 1 — Understanding cybersecurity and digital assets
+  Deck 1.1 — Cybersecurity: Defending the Digital World
+    Deck content:
+      • Protect people, information, devices, and services
+      • Think like a defender: identify what matters before selecting controls
+    Speaker Notes / Script:
+      “Cybersecurity protects the systems and information we rely on from unauthorized access, misuse, alteration, disruption, or destruction. Before choosing a tool, ask what asset needs protection, what could go wrong, and what safeguards are appropriate.”
+
+  Deck 1.2 — Definition and Purpose of Cybersecurity
+    Deck content:
+      • Protect against unauthorized access, misuse, change, disruption, and destruction
+      • Security includes prevention, detection, response, and recovery
+      • People, processes, and technology all contribute
+    Speaker Notes / Script:
+      “Security is a lifecycle. Prevention lowers the chance of an incident; detection helps us notice it; response limits harm; recovery restores services and data. People, processes, and technology must work together. Antivirus alone cannot solve every security problem.”
+
+  Deck 1.3 — Beyond Antivirus: What Cybersecurity Really Covers
+    Deck content:
+      • Account and identity security
+      • Information privacy and access control
+      • Devices, applications, networks, and configuration
+      • Incident response, backups, and recovery
+    Speaker Notes / Script:
+      “Cybersecurity includes securing accounts, limiting who can see data, keeping devices and software updated, configuring systems safely, and preparing for incidents. A device can have antivirus and still be at risk if the user reuses passwords or shares private files publicly.”
+
+  Deck 1.4 — Our Everyday Digital Dependence
+    Deck content:
+      • Email and learning platforms
+      • Student records, grades, and research
+      • Phones, social accounts, cloud files, and projects
+    Speaker Notes / Script:
+      “Think about the systems you used today. If a learning platform went offline before an assignment deadline, or your email were taken over, the impact would extend beyond the device. Digital services have value because people depend on them.”
+
+  Deck 1.5 — What Are Digital Assets?
+    Deck content:
+      • An asset is something valuable that needs protection
+      • Examples: accounts, devices, records, applications, services, and intellectual work
+    Speaker Notes / Script:
+      “A digital asset is anything digital that matters enough to protect. It may be information, access to a system, a phone, a repository of code, or the ability to submit assignments. Identify assets before selecting safeguards.”
+
+  Deck 1.6 — The Value of Personal Information and Digital Identity
+    Deck content:
+      • Names, student numbers, contact details, schedules, messages, and account identifiers
+      • Information can be combined to target or impersonate someone
+      • Posts and screenshots can persist beyond their intended audience
+    Speaker Notes / Script:
+      “A single detail may look harmless, but several details can reveal more together. A name, public timetable, and live location may expose routines. Protect your digital identity by considering who can see information and how it could be reused.”
+
+Topic 2 — The CIA triad
+  Deck 1.7 — Confidentiality: Who Can See It?
+    Deck content:
+      • Only authorized people should access information
+      • Example: grades visible to the student and authorized staff
+      • Controls: permissions, MFA, encryption, careful sharing
+    Speaker Notes / Script:
+      “Confidentiality is about preventing unauthorized disclosure. If a private class list is accidentally made public, confidentiality is affected even if nobody changes the list. Ask: who needs this information, and who does not?”
+
+  Deck 1.8 — Integrity: Can We Trust It?
+    Deck content:
+      • Information remains accurate and complete
+      • Unauthorized changes undermine trust
+      • Controls: permissions, audit logs, approvals, validation, backups
+    Speaker Notes / Script:
+      “Integrity means information remains trustworthy. A grade changed without authorization or a bank account number altered on a payment instruction can lead to wrong decisions. Audit history and approval workflows help detect or prevent unauthorized changes.”
+
+  Deck 1.9 — Availability: Can We Use It?
+    Deck content:
+      • Authorized users can access systems when needed
+      • Outages may be accidental or malicious
+      • Controls: backups, redundancy, maintenance, recovery plans
+    Speaker Notes / Script:
+      “Availability means people can get to the information and services they need. A server failure or ransomware incident may stop students accessing their work. Not every outage is a cyberattack, but recovery preparation is still important.”
+
+  Deck 1.10 — One Incident, Multiple Security Impacts
+    Deck content:
+      • Data theft affects confidentiality
+      • Unauthorized changes affect integrity
+      • Inaccessible files affect availability
+    Speaker Notes / Script:
+      “A single incident can affect more than one security objective. If an attacker copies private files and alters the originals, confidentiality and integrity are both affected. Availability is also affected if the files become unusable.”
+
+Topic 3 — Threats, vulnerabilities, and risk
+  Deck 1.11 — Threat, Vulnerability, and Risk
+    Deck content:
+      • Threat: potential source of harm
+      • Vulnerability: weakness that could be exploited
+      • Risk: likelihood and impact of harm
+    Speaker Notes / Script:
+      “A threat is what could cause harm; a vulnerability is the weakness that could make the harm possible; risk considers how likely it is and how serious the impact could be. These are related but different concepts.”
+
+  Deck 1.12 — Case Study: The Reused Password
+    Deck content:
+      • Threat: someone uses leaked credentials
+      • Vulnerability: password reused on school email
+      • Risk: account takeover and exposed information
+      • Controls: unique password, password manager, MFA, session review
+    Speaker Notes / Script:
+      “If a password from one service is leaked and reused on school email, an attacker may try the same credentials elsewhere. A unique password limits the spread of a breach; MFA adds another layer of protection.”
+
+Assessments:
+  • Multiple choice: Which CIA principle is affected when an unauthorized person reads a private student list? (Confidentiality.)
+  • Multiple choice: A grade is changed without permission. Which principle is affected? (Integrity.)
+  • Multiple choice: Students cannot access a failed learning platform. Which principle is affected? (Availability.)
+  • True/False: Every availability problem is caused by a cyberattack. (False.)
+  • Short answer: Explain the difference between a threat and a vulnerability.
+  • Scenario: Identify the threat, vulnerability, and risk when a student reuses a password.
+
+Activities:
+  • Activity 1 — “What Would You Protect?” (integrated opening): In pairs, name three digital assets, rank them by the harm if exposed/changed/unavailable, and name a safeguard.
+  • Activity 2 — CIA Triad Sprint (7 minutes): Classify A) a class list is public, B) a grade is changed, C) ransomware locks a lab computer, D) a compromised account downloads and alters files. Use C/I/A/M and explain answers.
+  • Debrief key: A—Confidentiality; B—Integrity; C—Availability, with possible additional impacts depending on facts; D—Multiple. Explain that incidents must be classified by observed consequences.
+
+CHAPTER 2 — SPOT THE TRAP (40 MINUTES)
+======================================
+Topic 1 — Recognizing social engineering and phishing
+  Deck 2.1 — Why People Are Targeted
+    Deck content:
+      • Attackers exploit trust, authority, urgency, fear, curiosity, scarcity, and helpfulness
+      • A convincing message can be malicious even when well written
+    Speaker Notes / Script:
+      “Cyberattacks do not always begin with sophisticated code. Often they begin by persuading someone to act. Messages may exploit urgency, authority, or a desire to help. The goal is not to blame victims; it is to recognize pressure and build a safe pause into our decisions.”
+
+  Deck 2.2 — Phishing, Smishing, and Vishing
+    Deck content:
+      • Phishing: deceptive email or webpage
+      • Smishing: deceptive SMS or chat message
+      • Vishing: deceptive voice call
+      • Sender names and caller IDs can be spoofed
+    Speaker Notes / Script:
+      “Phishing often arrives by email or a fake website; smishing uses text messages or chats; vishing uses voice calls. A familiar name or caller ID is not enough to establish trust. Verify unusual requests through an independent known channel.”
+
+  Deck 2.3 — Spear Phishing and Impersonation
+    Deck content:
+      • Targeted messages use personal or organizational details
+      • A familiar account may itself be compromised
+      • Verify requests involving credentials, money, or sensitive files
+    Speaker Notes / Script:
+      “Spear phishing is tailored to a particular person or group. It may reference a course, project, supervisor, or recent event to look genuine. If a request is unusual or high-impact, confirm it using a separate known channel.”
+
+  Deck 2.4 — Business Email Compromise and Urgent Requests
+    Deck content:
+      • Changed bank details, urgent payments, gift cards, secrecy, or sensitive files are red flags
+      • Use established approval and callback procedures
+    Speaker Notes / Script:
+      “Some impersonation attempts request a payment change or sensitive document and insist it must happen immediately. Do not rely on the email thread alone. Use the normal approval process and verify changes through a known contact method.”
+
+  Deck 2.5 — Malicious Links, Attachments, and QR Codes
+    Deck content:
+      • Links may lead to fake login pages
+      • Attachments may ask users to run code or enable macros
+      • QR codes can hide a destination
+      • Do not open or enable unexpected content
+    Speaker Notes / Script:
+      “Links, files, and QR codes can hide their destination or lead to unsafe actions. HTTPS does not prove a site is legitimate. Do not enter credentials after an unexpected link or enable content simply because a document asks.”
+
+  Deck 2.6 — AI-Enabled Deception
+    Deck content:
+      • AI can create fluent messages, synthetic voices, or convincing images/video
+      • Verify unusual requests independently
+      • Do not trust a voice or video solely because it seems familiar
+    Speaker Notes / Script:
+      “AI can make deception more convincing and remove obvious spelling mistakes. If someone requests money, credentials, or confidential data, verify independently—even if the voice or video appears familiar. Use a known number or official channel, not contact details supplied in the suspicious request.”
+
+  Deck 2.7 — Red Flags and the PAUSE Routine
+    Deck content:
+      • Unexpected request; urgency; secrecy; mismatched domain; password/OTP request; unusual payment change
+      • PAUSE → INSPECT → VERIFY → REPORT
+    Speaker Notes / Script:
+      “Pause before acting. Inspect sender details and the destination without clicking suspicious links. Verify through a known, independent channel. Report through the organization’s approved process. Grammar mistakes can be clues, but polished messages can also be scams.”
+
+Topic 2 — Verification and safe action
+  Deck 2.8 — Inspecting a Suspicious Message
+    Deck content:
+      • Check sender and domain carefully
+      • Compare the link destination to the claimed organization
+      • Notice the requested action and emotional pressure
+      • Do not use the suspicious message to verify itself
+    Speaker Notes / Script:
+      “We will inspect a fictional message. Look at who sent it, the domain, what it asks you to do, and whether it creates pressure. Instead of replying to ask whether it is real, open the official service independently or use a known contact channel.”
+
+  Deck 2.9 — Why HTTPS Is Not a Trust Guarantee
+    Deck content:
+      • HTTPS encrypts the connection between browser and website
+      • It does not prove the site owner is honest
+      • Fake login pages can also use HTTPS
+    Speaker Notes / Script:
+      “A padlock or HTTPS tells you something about the connection, not whether the business or sender is trustworthy. Do not use HTTPS alone as proof of legitimacy. Check the domain and the context, and verify the request.”
+
+  Deck 2.10 — What to Do After a Suspicious Click
+    Deck content:
+      • Stop interacting
+      • Report promptly through a known channel
+      • Do not hide the mistake or delete relevant evidence
+      • Follow IT guidance for account or device recovery
+    Speaker Notes / Script:
+      “If you click a suspicious link, do not panic or hide it. Stop interacting and report promptly. Tell the responder what you clicked or entered, when it happened, and what the device displayed. Quick reporting can reduce harm.”
+
+Assessments:
+  • Multiple choice: A message requests an OTP and threatens account closure. What is safest? (Verify independently and report.)
+  • Select all that apply: urgency, mismatched domain, password/OTP request, unusual payment change are possible warning signs.
+  • True/False: A message with perfect grammar cannot be phishing. (False.)
+  • Short answer: Explain the difference among phishing, smishing, and vishing.
+  • Scenario: A “professor” sends an unexpected file asking you to enable macros. State the safe next steps.
+
+Activities:
+  • Guided demonstration: annotate a fictional message—sender, domain, demand, link destination, and emotional pressure. Never click the example link.
+  • Video option (preview runtime first): CISA Secure Our World — https://www.cisa.gov/secure-our-world ; CISA resource toolkit — https://www.cisa.gov/resources-tools/resources/secure-our-world-cybersecurity-awareness-month-resources ; National Cybersecurity Alliance — https://www.staysafeonline.org/articles/security-awareness-episodes.
+  • Interactive Challenge 1 — Phish-or-Legit Investigation (10 minutes): classify five fictional cards as suspicious, needs verification, or likely legitimate; identify two clues and the safest next action. Score 1 point per classification, evidence, and safe action per card (15 points maximum).
+
+CHAPTER 3 — LOCK DOWN ACCOUNTS AND DEVICES (35 MINUTES)
+=======================================================
+Topic 1 — Passwords, passphrases, and account protection
+  Deck 3.1 — Unique Passwords and Passphrases
+    Deck content:
+      • Use long, unique passwords for important accounts
+      • Never reuse a school password on other services
+      • Do not share passwords or recovery codes
+    Speaker Notes / Script:
+      “Password length and uniqueness matter. If a password is exposed on one website, reuse can put other accounts at risk. Never tell the class your real password; use a fictional example when practicing.”
+
+  Deck 3.2 — Password Managers
+    Deck content:
+      • Create and store unique passwords
+      • Protect the vault with a strong master passphrase and MFA where supported
+      • Use a reputable product and safe recovery methods
+    Speaker Notes / Script:
+      “A password manager helps you avoid memorizing or reusing every password. It is itself an important account, so protect it carefully and choose a reputable tool approved for your circumstances. Demonstrate only with a blank demo vault.”
+
+  Deck 3.3 — Multifactor Authentication (MFA)
+    Deck content:
+      • MFA uses two or more different types of evidence
+      • Something you know, have, or are
+      • Prefer passkeys/security keys when supported
+      • Deny unexpected sign-in prompts
+    Speaker Notes / Script:
+      “MFA adds another layer beyond a password. Options differ in phishing resistance, and MFA is not perfect. Never approve a prompt you did not initiate or share an OTP with someone claiming to be support.”
+
+  Deck 3.4 — Recovery, Sessions, and Connected Apps
+    Deck content:
+      • Keep recovery routes current
+      • Review active sessions and sign-in alerts
+      • Remove unfamiliar or unused app access
+      • Use official recovery procedures
+    Speaker Notes / Script:
+      “Recovery settings can help you regain access, but they also need protection. Review sessions and connected apps periodically. If you see unfamiliar activity, use the provider’s official security process and contact support through a known channel.”
+
+Topic 2 — Devices, software, and networks
+  Deck 3.5 — Updates and Trusted Downloads
+    Deck content:
+      • Install OS, browser, and app updates promptly
+      • Use official update settings and trusted app sources
+      • Avoid cracked software, unknown USBs, and unexpected attachments
+    Speaker Notes / Script:
+      “Updates often fix known weaknesses. Install them through official settings or approved channels, not through an unexpected pop-up. Pirated installers and unknown USB devices can put both data and devices at risk.”
+
+  Deck 3.6 — Screen Locks, Encryption, and Least Privilege
+    Deck content:
+      • Use a secure screen lock
+      • Use standard permissions for routine work when possible
+      • Enable device encryption where available
+      • Lock unattended devices
+    Speaker Notes / Script:
+      “A device may hold active sessions, saved credentials, and private files. Screen locks and encryption can reduce exposure if it is lost. Least privilege limits how much damage can occur if an account or app is compromised.”
+
+  Deck 3.7 — Public Wi-Fi, VPNs, and App Permissions
+    Deck content:
+      • Verify network names with venue staff
+      • Review camera, microphone, location, and extension permissions
+      • A VPN does not make phishing or fake sites safe
+    Speaker Notes / Script:
+      “Public Wi-Fi is not automatically unsafe, but a network name is not proof of trust. Verify the network, use current devices and HTTPS, and follow organizational rules. A VPN does not prove a website is legitimate or prevent phishing.”
+
+  Deck 3.8 — Backups and Recovery
+    Deck content:
+      • Back up important work to approved storage
+      • Keep backups protected from ordinary account compromise or malware where feasible
+      • Test restoration; syncing alone may not be a backup
+    Speaker Notes / Script:
+      “A backup is useful only if the copy is available and can be restored. Syncing can copy deletions or damaged files too. Follow institutional rules for storing school data and periodically verify that the backup works.”
+
+Assessments:
+  • Multiple choice: Why use unique passwords? (To prevent one breached password from unlocking other accounts.)
+  • True/False: MFA makes account compromise impossible. (False.)
+  • Select all that apply: official updates, screen locks, app-permission review, and tested backups improve security.
+  • Scenario: You receive unexpected MFA requests while not signing in. State safe steps.
+  • Short answer: Explain one difference between syncing and backing up.
+
+Activities:
+  • Paired “security settings walkthrough” (10 minutes): on their own devices or a paper checklist, locate update, screen-lock, account-security/MFA, and recovery settings. Do not show private information or change managed settings without permission.
+  • Rapid review: compare a reused complex password with unique long passwords held in a reputable password manager. Discuss what to do about an unexpected MFA prompt.
+  • Video resource: CISA Secure Our World videos — https://www.cisa.gov/secure-our-world-videos. Preview links and use a relevant short clip.
+
+CHAPTER 4 — PROTECT DATA AND PRIVACY (35 MINUTES)
+=================================================
+Topic 1 — Personal information and digital footprint
+  Deck 4.1 — What Counts as Personal Information?
+    Deck content:
+      • Information can identify or reasonably identify a person
+      • Examples: name, contact details, student number, location, schedules, and messages
+      • Sensitive personal information has specific legal protections
+    Speaker Notes / Script:
+      “Personal information is not limited to passwords. Even ordinary details can identify someone or reveal patterns when combined. Under Philippine law, certain categories receive additional protection; follow school policy and consult designated privacy personnel when unsure.”
+
+  Deck 4.2 — Privacy Is More Than Security
+    Deck content:
+      • Security protects systems and data from misuse
+      • Privacy concerns appropriate collection, use, sharing, and retention
+      • Ask why data is needed and who may access it
+    Speaker Notes / Script:
+      “A system can be technically secure and still collect more information than necessary. Privacy asks whether the data should be collected or shared for a legitimate purpose, who needs it, and how long it should be kept.”
+
+  Deck 4.3 — Digital Footprint and Oversharing
+    Deck content:
+      • Think about audience, context, and permanence
+      • Avoid publishing IDs, schedules, live location, private chats, or document photos
+      • Deleted posts may already have been copied
+    Speaker Notes / Script:
+      “Before posting, consider who may see it now and later. A photo can expose an ID, location, or schedule. Deleting it later cannot guarantee that copies or screenshots no longer exist.”
+
+Topic 2 — Data minimization and safe sharing
+  Deck 4.4 — Purpose and Data Minimization
+    Deck content:
+      • Collect only what is necessary for a legitimate purpose
+      • Avoid gathering sensitive details by default
+      • Explain the purpose and retention period
+    Speaker Notes / Script:
+      “Data minimization means asking what information is truly needed, not collecting everything simply because a form can. If an event registration only needs a name and contact method, an address or medical details should not be requested without a proper need and authority.”
+
+  Deck 4.5 — Safe File Sharing and Storage
+    Deck content:
+      • Check audience and permissions before sharing
+      • Use approved institutional storage
+      • Avoid public links for private or confidential files
+      • Restrict access to people who need it
+    Speaker Notes / Script:
+      “Before sharing a file, check who will receive it and whether the link allows anyone to view or edit. Do not send confidential information to personal email or unapproved apps for convenience. Report accidental exposure promptly.”
+
+  Deck 4.6 — Physical Security and Responsible Handling
+    Deck content:
+      • Lock devices and keep media under control
+      • Avoid shoulder surfing
+      • Do not leave printed records or screens unattended
+      • Follow approved disposal and retention procedures
+    Speaker Notes / Script:
+      “Privacy can be compromised without a cyberattack. Someone may read a screen over your shoulder, find an unlocked computer, or access a discarded document. Physical and organizational safeguards matter alongside technical controls.”
+
+Assessments:
+  • Multiple choice: What is data minimization? (Collecting only what is necessary for the legitimate purpose.)
+  • True/False: If a post is deleted, nobody could have copied it. (False.)
+  • Short answer: Name three questions to ask before sharing a personal-data file.
+  • Scenario: A public spreadsheet requests names, student numbers, addresses, birthdays, and medical details for a club event. Identify at least four changes to make it safer.
+
+Activities:
+  • Mini-case: redesign the club-registration form. Remove unnecessary fields, state purpose, restrict access, use approved storage, establish retention/deletion, and name a contact for questions.
+  • Interactive Challenge 2 — Privacy-by-Design Pitch (30 minutes): teams choose one scenario—public student directory; private grades in a group chat; uploading real customer records to an unapproved AI tool; or lost USB containing unencrypted records. Prepare a safer process and pitch it. Peer feedback: one “Glow” (strength) and one “Grow” (improvement).
+  • Facilitator key: publish only necessary information with authorization; do not forward private screenshots; use synthetic/anonymized data and approved AI tools; report lost media promptly and preserve facts.
+
+CHAPTER 5 — WHEN SOMETHING GOES WRONG (30 MINUTES)
+==================================================
+Topic 1 — Response principles
+  Deck 5.1 — Report Quickly and Without Blame
+    Deck content:
+      • Fast, calm reporting reduces harm
+      • Do not hide mistakes or investigate beyond your authority
+      • Use a known school IT/help-desk or incident/privacy channel
+    Speaker Notes / Script:
+      “People sometimes delay reporting because they are embarrassed or fear punishment. But delay may increase harm. The goal is to limit damage, preserve facts, and get help quickly—not to shame the person who reports.”
+
+  Deck 5.2 — Stop, Report, and Contain
+    Deck content:
+      • Stop interacting with suspicious content
+      • Report what happened, when, on which device/account, and what was entered or clicked
+      • Follow authorized IT guidance for containment
+    Speaker Notes / Script:
+      “Stop further interaction and report promptly through a known channel. Describe the time, device, account, actions taken, and symptoms. Do not factory-reset, delete logs, or attempt technical fixes unless authorized guidance says to do so.”
+
+  Deck 5.3 — Secure Accounts and Preserve Evidence
+    Deck content:
+      • Use a trusted device for account recovery when advised
+      • Change affected/reused passwords, review sessions, and secure MFA as appropriate
+      • Preserve messages, URLs, timestamps, and symptoms
+    Speaker Notes / Script:
+      “If credentials were entered or an OTP was shared, tell responders promptly. From a clean, trusted device and following guidance, secure the account, revoke sessions if appropriate, and address reused passwords. Preserve relevant messages and screenshots safely; do not spread private data.”
+
+  Deck 5.4 — Recovery and Lessons Learned
+    Deck content:
+      • Restore from clean backups through authorized procedures
+      • Patch or fix the underlying weakness
+      • Monitor for further misuse
+      • Update habits and procedures
+    Speaker Notes / Script:
+      “Recovery is not just getting the computer to work again. Authorized staff should confirm the environment is safe, restore clean data, fix the weakness, and monitor for recurrence. Afterward, improve the process so the same incident is less likely or less harmful.”
+
+Assessments:
+  • Multiple choice: What is the safest first response to a suspicious attachment that appears to have run? (Stop interacting and contact IT through a known channel.)
+  • True/False: If you clicked a suspicious link, it is best to delete the message and tell nobody. (False.)
+  • Short answer: Name four details useful in an incident report.
+  • Scenario: You entered a password on a fake page. List safe next steps.
+
+Activities:
+  • Interactive Challenge 3 — Incident Tabletop (30 minutes). Inject 1: a student opens a “shared project” attachment that requests enabling content. Inject 2: after enabling it, the laptop slows and files show unfamiliar extensions. Inject 3: the same password is used for email and social media, and a friend urges the student to hide the incident.
+  • Team response: stop interaction; report to IT/instructor through a known channel; follow IT instructions for containment; preserve details; secure accounts from a trusted device with guidance; never hide the incident or self-remediate beyond authority.
+  • Score out of 10: rapid reporting (2); stops interaction (1); appropriate containment (2); preserves evidence (1); secures accounts from trusted device (2); communicates without blame (1); identifies a prevention step (1).
+
+CHAPTER 6 — RESPONSIBLE DIGITAL CITIZENSHIP AND IT CAREERS (25 MINUTES)
+=======================================================================
+Topic 1 — Ethics and safe professional practice
+  Deck 6.1 — Authorization and Scope
+    Deck content:
+      • Security testing requires explicit authorization and a defined scope
+      • Curiosity is not permission
+      • Document work and report findings responsibly
+    Speaker Notes / Script:
+      “As future IT professionals, you may be curious to test a system’s security. Do so only when you have explicit permission and understand the scope. Unauthorized testing can disrupt services, expose data, and violate policy or law.”
+
+  Deck 6.2 — Respect, Privacy, and Responsible AI Use
+    Deck content:
+      • Do not share another person’s credentials, private screenshots, or personal data
+      • Verify high-impact claims and suspicious synthetic media
+      • Do not upload confidential data to unapproved AI tools
+    Speaker Notes / Script:
+      “Digital citizenship means respecting people and the information entrusted to us. AI can support learning, but it can also create convincing false content. Verify important claims and never upload confidential school or personal information to a tool that is not approved for it.”
+
+  Deck 6.3 — Security as a Career Habit
+    Deck content:
+      • Use least privilege and document changes
+      • Patch, back up, and test recovery
+      • Keep appropriate logs and communicate risks clearly
+    Speaker Notes / Script:
+      “Good security is built into daily professional practice. Document changes, limit access, test backups, and explain risk in language that non-specialists can act on. Strong technical skills are more valuable when paired with ethical judgment and communication.”
+
+Topic 2 — Peer teaching and commitment
+  Deck 6.4 — The 60-Second Security Brief
+    Deck content:
+      • Choose one habit: MFA, updates, reporting, safe sharing, backups, or phishing verification
+      • Explain one risk, one action, and one memorable phrase
+    Speaker Notes / Script:
+      “Your task is to explain one security habit to a non-technical audience in 60 seconds. State the risk, recommend a concrete action, and end with a memorable phrase. Aim for clarity rather than jargon.”
+
+  Deck 6.5 — My Cyber-Safety Commitment
+    Deck content:
+      • Choose one security habit to adopt today
+      • State how you will know it is complete
+      • Identify where to report a suspected incident
+    Speaker Notes / Script:
+      “Choose one action you can complete this week—enable MFA, review recovery settings, update a device, check a backup, or verify a sharing permission. Make it specific and measurable. Do not share any private credentials as proof.”
+
+Assessments:
+  • Short answer: Why must security testing be authorized and scoped?
+  • Scenario: A classmate asks you to upload actual customer records into a free AI tool. What safer alternative would you propose?
+  • Performance assessment: deliver a 60-second security brief with one risk, one action, and one memorable phrase.
+  • Reflection: Name one habit you will adopt and how you will verify completion.
+
+Activities:
+  • 60-Second Security Brief (10 minutes): groups prepare and deliver a concise awareness pitch. Example phrase: “Stop, verify, then reply—because a trusted name is not proof of a trusted sender.”
+  • Closing discussion (5 minutes): ask learners to identify one habit they will adopt and one practice they will encourage in class or a future workplace.
+
+FINAL SECTION — POST-ASSESSMENT, COMMITMENT, AND CLOSING (15 MINUTES)
+=====================================================================
+Topic 1 — Individual knowledge check
+  Deck F1 — Assessment Instructions
+    Deck content:
+      • 20 items, 1 point each
+      • Suggested mastery: 16/20 (80%)
+      • Answer independently; follow institutional grading rules
+    Speaker Notes / Script:
+      “Complete the assessment independently. It covers the main ideas from the session. The suggested benchmark is 16 out of 20, but follow the assessment and grading policy set by the organizer.”
+
+Assessment (20 items):
+  • Multiple choice (1–5): confidentiality; safe response to urgent OTP request; safest password practice; what HTTPS proves; response to unexpected MFA prompt.
+  • True/False (6–10): polished messages cannot be phishing (False); sharing OTP with “IT” is safe (False); updates fix known weaknesses (True); silent deletion is always best (False); privacy includes appropriate collection/sharing (True).
+  • Select all that apply (11–12): phishing clues (urgency, mismatched domain, password/OTP request, unusual payment change); account protections (unique passwords, MFA, session/recovery review).
+  • Matching (13–14): smishing, vishing, ransomware, MFA; confidentiality, integrity, availability.
+  • Short answer (15–16): two independent verification methods; two details useful in incident report.
+  • Scenario (17–18): public student spreadsheet; caller asking to install remote-access software.
+  • Ordering (19): stop interaction, report promptly, preserve details, follow authorized containment/recovery instructions. Evidence preservation may occur alongside reporting when safe.
+  • Reflection (20): one specific security habit for the coming week and how completion will be verified.

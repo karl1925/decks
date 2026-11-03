@@ -1,0 +1,1 @@
+<article class="outline-detail-deck"><div class="outline-detail-deck-icon">▤</div><div class="outline-detail-deck-copy"><strong>{{ $deck->title }}</strong><small>{{ $deck->slides->count() }} {{ \Illuminate\Support\Str::plural('slide', $deck->slides->count()) }}</small></div></article>
